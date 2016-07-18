@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ToDo</title>
+	<script src="jquery-1.12.4.js"></script>
+	<script src="ToDo.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="todoblock">
+		<h1>ToDo</h1>
+			<div >
+				<span class="counts">0 of 0 remaining </span>[ <a id="a" href="#" >archive</a> ]<br>
+				<ul id="todolist">
+					
+				</ul>
+
+			</div>
+
+			<form action="index.html" method="post">
+				<input class="input" type="text" name="do" value="add new todo here" id="new_input">
+				<input class="button" type="button" name="add" value="add" onclick="AddNew()" >
+			</form><br>
+			
+			<button onclick="Send()" class="button">Сохранить</button>
+			<button onclick="Get()" class="button">Получить</button>
+	<div class="show">
+	</div>
+	
+	
+
+	</div>
+
+</body>
+</html>
